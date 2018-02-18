@@ -1,50 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg2"
-    android:orientation="vertical"
-    tools:context="com.example.android.Udacity.MainActivity">
+    android:background="@drawable/bg2">
 
-    <ImageView
-        android:id="@+id/image"
-        style="@style/Image"
-        android:src="@drawable/udacty" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.Udacity.MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        style="@style/Textone"
-        android:text="@string/moto"
-        android:textAlignment="center"
-        android:textColor="@color/text" />
+        <ImageView
+            android:id="@+id/image"
+            style="@style/Image"
+            android:src="@drawable/udacty" />
 
-    <TextView
-        android:id="@+id/textView2"
-        style="@style/Texttwo"
-        android:text="@string/school"
-        android:textAlignment="center"
-        android:textColor="@color/text" />
+        <TextView
+            android:id="@+id/textView"
+            style="@style/Textone"
+            android:text="@string/moto"
+            android:textAlignment="center"
+            android:textColor="@color/text" />
 
-    <TextView
-        android:id="@+id/textView3"
-        style="@style/Textthree"
-        android:text="@string/adress1" />
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/Texttwo"
+            android:text="@string/school"
+            android:textAlignment="center"
+            android:textColor="@color/text" />
 
-    <TextView
-        android:id="@+id/textView4"
-        style="@style/Textfour"
-        android:text="@string/adress2" />
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/Textthree"
+            android:text="@string/adress1" />
 
-    <TextView
-        android:id="@+id/textView5"
-        style="@style/Textfive"
-        android:text="@string/phone" />
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/Textfour"
+            android:text="@string/adress2" />
 
-    <TextView
-        android:id="@+id/textView6"
-        style="@style/Textsix"
-        android:text="@string/url" />
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/Textfive"
+            android:text="@string/phone" />
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/Textsix"
+            android:text="@string/url" />
+
+    </LinearLayout>
+
+</ScrollView>
