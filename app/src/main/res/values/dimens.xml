@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="drawable_padding">4dp</dimen>
+    <dimen name="padding_start">8dp</dimen>
+    <dimen name="padding_end">8dp</dimen>
+    <dimen name="padding_left">8dp</dimen>
+    <dimen name="padding_right">8dp</dimen>
+    <dimen name="padding_start30">30dp</dimen>
+    <dimen name="margin_top">8dp</dimen>
+    <dimen name="margin_top30">30dp</dimen>
+    <dimen name="padding_left30">30dp</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Udacity</string>
+    <string name="moto">The U Is You!</string>
+    <string name="school">Udacity</string>
+    <string name="adress1">2465 Latham St.</string>
+    <string name="adress2">Mountain View, CA 94043</string>
+    <string name="phone">650-555-5555</string>
+    <string name="url">www.udacity.com</string>
+
+
+</resources>
